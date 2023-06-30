@@ -17,5 +17,5 @@ i        `make_response <http://flask.pocoo.org/docs/1.0/api/#flask.Flask.make_r
 
     data = '{"text":"Github code commited"}'
     resp = requests.post(url, headers=headers, data=data)
-    print(resp.status_code)
+    print("Status code:",resp.status_code)
 
